@@ -1,0 +1,21 @@
+{
+  "name": "red-error",
+  "version": "0.0.0",
+  "description": "Exit with non-zero code and red error message",
+  "bin": {
+    "red-error": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js fails with red output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okwolf/red-error.git"
+  },
+  "author": "Wolfgang Wedemeyer <wolf@okwolf.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okwolf/red-error/issues"
+  },
+  "homepage": "https://github.com/okwolf/red-error"
+}
