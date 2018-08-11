@@ -16,3 +16,5 @@ assert.strictEqual(
   expectedStdErr,
   "wrong output to standard error: " + actualStdErr
 );
+
+process.stdout.write("\x1b[1;32mALL TESTS PASSED!\x1b[0m\n\n");
