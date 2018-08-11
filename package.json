@@ -6,7 +6,8 @@
     "red-error": "./index.js"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "release": "npm t && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
