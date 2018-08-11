@@ -1,4 +1,4 @@
-const spawnSync = require("child_process").spawnSync;
+const { spawnSync } = require("child_process");
 const assert = require("assert");
 const formatRed = require("./formatRed.js");
 
