@@ -6,7 +6,7 @@
     "red-error": "./index.js"
   },
   "scripts": {
-    "test": "node index.js fails with red output"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
