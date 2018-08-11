@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/okwolf/red-error.svg?branch=master)](https://travis-ci.org/okwolf/red-error)
 [![npm version](https://img.shields.io/npm/v/red-error.svg?style=flat)](https://www.npmjs.com/package/red-error)
 
-Humble CLI command that print its arguments in red and exits with a non-zero code. Might be useful for showing more descriptive error messages when `npm` scripts fail.
+Humble CLI command that print its arguments in red and exits with a non-zero code. Might be useful for showing more descriptive error messages when `npm` scripts fail. Compatible with `Node.js >= 4`.
 
 ## Installation Options
 
