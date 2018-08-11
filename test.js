@@ -7,10 +7,15 @@ const results = spawnSync("node index.js ", message.split(" "), {
   shell: true
 });
 
-assert.strictEqual(results.status, 1, "wrong exit code");
-assert.strictEqual(results.stdout.length, 0, "nothing printed to standard out");
+const actualStdOut = results.stdout.toString();
 const actualStdErr = results.stderr.toString();
 const expectedStdErr = formatRed(message);
+assert.strictEqual(results.status, 1, "wrong exit code");
+assert.strictEqual(
+  actualStdOut,
+  "",
+  `nothing should be printed to standard out but found: ${actualStdOut}`
+);
 assert.strictEqual(
   actualStdErr,
   expectedStdErr,
